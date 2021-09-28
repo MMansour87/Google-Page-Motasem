@@ -17,8 +17,6 @@ Build the Google.com homepage as requirement task for GSG Career Accelerator.
 1. Use `-webkit-appearance: none` when buttons or inputs not respond to style.
 
 
-
-
 ## ✧Technology
 - HTML ➙ to build the structure of the pages 
 - CSS ➙ to style the application and build animations
