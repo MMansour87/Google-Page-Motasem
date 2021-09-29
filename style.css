@@ -28,7 +28,7 @@ header {
 .list_Img {
   background: url(./assets/list.svg);
   background-repeat: no-repeat;
-  background-size: 55% 55%;
+  background-size: 50% 50%;
   background-position: center;
 
   height: 5.8vh;
@@ -41,7 +41,7 @@ header {
 .list_Img:hover {
   background: url(./assets/List-hover.svg);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 145% 145%;
   background-position: center;
 
   cursor: pointer;
@@ -68,6 +68,69 @@ header {
 
 /* -----------------------End of Header */
 
+
+/* St of Search section ---------------------- */
+
+.google_Logo_Div{
+  display: flex;
+  justify-content: center;
+}
+
+.google_Logo{
+  height: 16vh;
+}
+
+.search_section{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 50vh;
+}
+
+.search_Box_Div{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.magnifier {
+height: 3.5vh;
+transform: translate(3.5vw,0vw);
+}
+
+.mic {
+  height: 3.5vh;
+  transform: translate(-3.5vw,0vw);
+  }
+
+  .mic:hover {
+    cursor: pointer;
+    }
+
+.search_Box{
+  width: 67vw;
+  height: 8vh;
+  border-radius: 4vh;
+  border: solid 2px #dddfe0;
+  text-indent:5vw;
+  font-size: 2.5vh;
+  
+}
+
+.search_Box:focus{
+outline: none;
+}
+
+
+
+
+
+
 span {
   color: #1a0dab;
 }
+
+
+
+/* ------------------------------- Ed of search section */
