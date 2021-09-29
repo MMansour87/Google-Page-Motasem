@@ -1,12 +1,73 @@
 * {
-    font-family: 'PT Sans', sans-serif;
-    margin: 0;
-    padding: 0;
-    color: rgba(0,0,0,0.87);  
+  font-family: "PT Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.87);
 }
 
+/* st of header ----------------------- */
 
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 5vh;
+  width: 100%;
+  margin: 2vh;
+}
+
+.top_Buttons {
+  font-size: 2.5vh;
+}
+
+.top_Buttons:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.list_Img {
+  background: url(./assets/list.svg);
+  background-repeat: no-repeat;
+  background-size: 55% 55%;
+  background-position: center;
+
+  height: 5.8vh;
+  width: 5.8vh;
+  border-radius: 50%;
+
+  cursor: pointer;
+}
+
+.list_Img:hover {
+  background: url(./assets/List-hover.svg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+
+  cursor: pointer;
+}
+
+.account_Img {
+  height: 6vh;
+  width: auto;
+}
+
+.account_Img:hover {
+  border: solid 1px gray;
+  border-radius: 50%;
+  width: 5.6vh;
+  height: 5.6vh;
+  cursor: pointer;
+}
+
+.top_Buttons,
+.list_Img,
+.account_Img {
+  margin: 0px 15px;
+}
+
+/* -----------------------End of Header */
 
 span {
-    color:#1a0dab;
+  color: #1a0dab;
 }

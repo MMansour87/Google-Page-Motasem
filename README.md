@@ -12,17 +12,12 @@ Build the Google.com homepage as requirement task for GSG Career Accelerator.
 2. No need search box not work.
 3. It doesn't have to be spaced exactly the same way to the pixel.
 
-
 ## Hints
 1. Use `-webkit-appearance: none` when buttons or inputs not respond to style.
-
 
 ## ✧Technology
 - HTML ➙ to build the structure of the pages 
 - CSS ➙ to style the application and build animations
-- JavaScript|DOM Manipulations ➙ To create interaction between the page and the user and track journey.
-- PPT & GitHub➙ to manage project.
-
 
 ## Created by:
 1. [Mutasem Mansour](https://github.com/MMansour87).
