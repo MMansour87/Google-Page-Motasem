@@ -1,3 +1,8 @@
+body {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
 * {
   font-family: "PT Sans", sans-serif;
   margin: 0;
@@ -12,7 +17,7 @@ header {
   justify-content: flex-end;
   align-items: center;
   height: 5vh;
-  width: 100%;
+  width: 100vw;
   margin: 2vh;
 }
 
@@ -47,10 +52,6 @@ header {
   cursor: pointer;
 }
 
-.account_Img {
-  height: 6vh;
-  width: auto;
-}
 
 .account_Img:hover {
   border: solid 1px gray;
@@ -66,71 +67,104 @@ header {
   margin: 0px 15px;
 }
 
-/* -----------------------End of Header */
+.account_Img {
+  height: 6vh;
+  width: auto;
+  margin-right: 3vw;
+}
 
+/* -----------------------End of Header */
 
 /* St of Search section ---------------------- */
 
-.google_Logo_Div{
+.google_Logo_Div {
   display: flex;
   justify-content: center;
 }
 
-.google_Logo{
-  height: 16vh;
+.google_Logo {
+  height: 14.5vh;
 }
 
-.search_section{
+.search_section {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  height: 50vh;
+  height: 42vh;
 }
 
-.search_Box_Div{
-display: flex;
-justify-content: center;
-align-items: center;
+.search_Box_Div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .magnifier {
-height: 3.5vh;
-transform: translate(3.5vw,0vw);
+  height: 3.5vh;
+  transform: translate(3.9vw, 0vw);
 }
 
 .mic {
   height: 3.5vh;
-  transform: translate(-3.5vw,0vw);
-  }
+  transform: translate(-3.9vw, 0vw);
+}
 
-  .mic:hover {
-    cursor: pointer;
-    }
+.mic:hover {
+  cursor: pointer;
+}
 
-.search_Box{
-  width: 67vw;
-  height: 8vh;
-  border-radius: 4vh;
+.search_Box {
+  width: 40vw;
+  height: 7vh;
+  border-radius: 4.5vh;
   border: solid 2px #dddfe0;
-  text-indent:5vw;
+  text-indent: 5vw;
   font-size: 2.5vh;
-  
 }
 
-.search_Box:focus{
-outline: none;
+.search_Box:focus {
+  outline: none;
 }
 
+.search_Box:hover {
+  box-shadow: 1px 4px 15px 0px #dddfe0;
+}
 
+.search_buttons_div {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
 
+.search_Submit {
+  font-size: 2vh;
+  width: auto;
+  padding: 2vh;
+  height: 2vh;
+  background-color: #f8f9fa;
+  border-radius: 1vh;
+  text-align: center;
+  line-height: 1.6vh;
+  margin: 0px 1vw;
+}
 
+.search_Submit:hover {
+  box-shadow: 0px 2px 5px 0px #dddfe0;
+  border: solid 1px #dddfe0;
+  cursor: pointer;
+}
 
+.Language_para{
+  font-size: 2vh;
+}
 
 span {
   color: #1a0dab;
+  cursor: pointer;
 }
 
-
-
+span:hover {
+  text-decoration: underline;
+}
 /* ------------------------------- Ed of search section */
