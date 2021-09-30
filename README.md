@@ -17,7 +17,7 @@ Build the Google.com homepage as requirement task for GSG Career Accelerator.
 
 ## ✧Technology
 - HTML ➙ to build the structure of the pages 
-- CSS ➙ to style the application and build animations
+- CSS ➙ to style the page elements
 
 ## Created by:
 1. [Mutasem Mansour](https://github.com/MMansour87).

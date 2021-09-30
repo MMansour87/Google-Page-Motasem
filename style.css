@@ -53,13 +53,6 @@ header {
 }
 
 
-.account_Img:hover {
-  border: solid 1px gray;
-  border-radius: 50%;
-  width: 5.6vh;
-  height: 5.6vh;
-  cursor: pointer;
-}
 
 .top_Buttons,
 .list_Img,
@@ -71,6 +64,14 @@ header {
   height: 6vh;
   width: auto;
   margin-right: 3vw;
+}
+
+.account_Img:hover {
+  border: solid 1px gray;
+  border-radius: 50%;
+  width: 5.7vh;
+  height: 5.7vh;
+  cursor: pointer;
 }
 
 /* -----------------------End of Header */
@@ -161,10 +162,68 @@ header {
 
 span {
   color: #1a0dab;
-  cursor: pointer;
+  
 }
 
 span:hover {
   text-decoration: underline;
+  cursor: pointer;
 }
 /* ------------------------------- Ed of search section */
+
+
+/* St of Footer section -------------------------------- */
+.country {
+  position: absolute;
+  bottom: 7vh;
+  width: 100vw;
+  height: 7vh ;
+  font-size: 2.2vh;
+  color:#6F6F6F;
+    padding: 0vh 4vw;
+  background-color: #F2F2F2;
+  line-height: 7vh;
+  border-bottom:solid 1px #dbd8d8;
+}
+
+footer{
+  display: flex;
+  position: absolute;
+  bottom: 0vh;
+  width: 100vw;
+  justify-content: center;
+  background-color: #F2F2F2;
+  height: 7vh ;
+}
+
+.left_Footer_buttons_div{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding: 0vh 3vw;
+}
+
+ .right_Footer_buttons_div{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  padding: 0vh 3vw;
+}
+
+.footer_Button{
+  font-size: 2.2vh;
+  color:#6F6F6F;
+  margin: 0vw 1vw;
+}
+
+.footer_Button:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+
+
+/* -------------------------- End of Footer Section */
